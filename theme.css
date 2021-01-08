@@ -1,0 +1,82 @@
+.button-Jt-tIg{
+    visibility: hidden;
+}
+
+.button-Jt-tIg:after{
+    background: var(--guilds-background);
+    visibility: visible;
+    position: absolute;
+    font-size: 13px;
+    content: "Read All";
+    margin-top: 5px;
+    height: 40px;
+    width: 50px;
+}
+
+.typing-2GQL18, .barButtonAlt-mYL1lj{
+    background: transparent !important;
+    opacity: 0.1 !important;
+    transition: opacity 1s ease-in-out .3s !important;
+}
+
+.typing-2GQL18:hover, .barButtonAlt-mYL1lj:hover{
+    opacity: 0.65 !important;
+}
+
+.username-1A8OIy, headerName-fajvi9, .usernameFont-23TX-h, .headerNameWrapper-3res2c{
+    font-weight: 1000 !important;
+    transition: filter .3s ease-in-out .3s;
+    filter: brightness(0) invert(1);
+}
+
+.username-1A8OIy:hover, .headerName-fajvi9:hover, .usernameFont-23TX-h:hover .headerNameWrapper-3res2c:hover {
+    filter: brightness(1) invert(0) !important;
+}
+
+#app-mount .acronym-1e2Mdt{
+    width: 100%;
+    align-items: flex-start;
+    font-size: 5px;
+}
+
+*::selection{
+    background-color: transparent !important;
+    color: #14b3be !important;
+}
+
+#app-mount .userPopout-3XzG_A .member-perm .member-perm .name, #app-mount .userPopout-3XzG_A .member-perm .roleName-32vpEy, #app-mount .userPopout-3XzG_A .role-2irmRk .member-perm .name, #app-mount .userPopout-3XzG_A .role-2irmRk .roleName-32vpEy{
+    color: white;
+}
+
+.userPopout-3XzG_A{
+    width: 300px !important;
+}
+
+.unread-2lAfLh{
+    width: 3px !important;
+    height: 20px !important;
+}
+
+.wrapper-2jXpOf.modeUnread-1qO3K1{
+    background-color: #14b3be0f !important;
+}
+
+
+:root {
+  --accent: 120, 139, 177;
+  --link-colour: 179, 120, 137;
+  --server-icon-size: 35px;
+  --server-icon-spacing: 8px;
+  --server-container-padding: 10px;
+}
+
+.theme-dark,
+html.theme-dark #app-mount .theme-light .root-1gCeng,
+html.theme-dark .force-theme.theme-light {
+  --background-light: #1F3743 !important;
+  --background: #212d38 !important;
+  --background-alt: #1d2630 !important;
+  --background-dark: #1d252e !important;
+  --guilds-background:var(--background) !important;
+  --toolbar-background: var(--background) !important;
+}
