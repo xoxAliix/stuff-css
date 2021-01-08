@@ -60,23 +60,3 @@
 .wrapper-2jXpOf.modeUnread-1qO3K1{
     background-color: #14b3be0f !important;
 }
-
-
-:root {
-  --accent: 120, 139, 177;
-  --link-colour: 179, 120, 137;
-  --server-icon-size: 35px;
-  --server-icon-spacing: 8px;
-  --server-container-padding: 10px;
-}
-
-.theme-dark,
-html.theme-dark #app-mount .theme-light .root-1gCeng,
-html.theme-dark .force-theme.theme-light {
-  --background-light: #1F3743 !important;
-  --background: #212d38 !important;
-  --background-alt: #1d2630 !important;
-  --background-dark: #1d252e !important;
-  --guilds-background:var(--background) !important;
-  --toolbar-background: var(--background) !important;
-}
