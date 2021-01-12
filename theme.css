@@ -62,7 +62,7 @@
 }
 
 .typeMacOS-3EmCyP.unfocused-1QsMU3 .macButtonClose-MwZ2nf, .typeMacOS-3EmCyP.unfocused-1QsMU3 .macButtonMaximize-2FMHAO, .typeMacOS-3EmCyP.unfocused-1QsMU3 .macButtonMinimize-3EJ6wo {
-  background: var(--text-muted);
+  background: #00000000 !important;
   opacity: 1 !important;
 }
 
