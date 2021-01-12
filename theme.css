@@ -60,3 +60,14 @@
 .wrapper-2jXpOf.modeUnread-1qO3K1{
     background-color: #14b3be0f !important;
 }
+
+.typeMacOS-3EmCyP.unfocused-1QsMU3 .macButtonClose-MwZ2nf, .typeMacOS-3EmCyP.unfocused-1QsMU3 .macButtonMaximize-2FMHAO, .typeMacOS-3EmCyP.unfocused-1QsMU3 .macButtonMinimize-3EJ6wo {
+  background: var(--text-muted);
+  opacity: 1 !important;
+}
+
+html:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .wordmarkWindows-1v0lYD::before,
+html:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .typeMacOS-3EmCyP:after,
+html:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .winButton-iRh8-Z {
+  opacity: 1 !important;
+}
